@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/premium-photo/healthy-food-clean-eating-selection_79782-19.jpg");
+      
+  }
+  
+  
+  header {
+  font-weight: 50px;
+  padding: auto;
+  display: flex;
+  font-size: 50px;
+  margin: 15px 0 30px;
+  border: solid;
+  background-color: rgb(193, 169, 103);
+      
+  
+  }
+  
+  .meal {
+  height: 50px;
+  border: solid;
+  text-align: center;
+  background-color: antiquewhite;
+  font-size: 25px;
+  }
+  
+  .recipe {
+  height: 450px;
+  width: 1100px;
+  border: solid;
+  text-align: center;
+  background-color: beige;
+  font-size: 18px;
+  overflow: scroll;
+  
+  }
+  .next {
+  height: 20px;
+  width: 60px;
+  margin-bottom: 30px;
+  }
+  
